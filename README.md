@@ -12,3 +12,5 @@ Steps:
 
    1. from openai import OpenAI
    2. client = OpenAI() 
+
+Note : Using GPT-5-Mini model
