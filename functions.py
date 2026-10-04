@@ -1,3 +1,6 @@
+#main.py contains the main code and functions.py contains backend functions
+#Keep both the files in a directory and run only main.py
+#Since its Streamlit so run like streamlit run main.py
 import json
 import os
 from pathlib import Path
