@@ -5,10 +5,10 @@ Steps:
 1. Created API Key in OpenAI
 2. Set the API Key in the System Environment Variables by using below command
 
-   a. Open Command Prompt
-   b. Run setx OPENAI_API_KEY "YOUR_OPENAI_API_KEY"
+   1. Open Command Prompt
+   2. Run setx OPENAI_API_KEY "YOUR_OPENAI_API_KEY"
    
 4. We can use the API Key in our code by calling
 
-   from openai import OpenAI
-   client = OpenAI() 
+   1. from openai import OpenAI
+   2. client = OpenAI() 
