@@ -1,10 +1,14 @@
 # ExploringCustomGPT
 Exploring the Custom GPT in simple and various ways
 Steps:
+
 1. Created API Key in OpenAI
 2. Set the API Key in the System Environment Variables by using below command
+
    Open Command Prompt
    Run setx OPENAI_API_KEY "YOUR_OPENAI_API_KEY"
-3. We can use the API Key in our code by calling
+   
+4. We can use the API Key in our code by calling
+
    from openai import OpenAI
    client = OpenAI() 
